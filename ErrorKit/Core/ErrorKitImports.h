@@ -170,6 +170,10 @@
 #import <MessageUI/MessageUI.h>
 #endif
 
+#ifdef ERROR_KIT_RESTKIT
+#import <RestKit/RestKit.h>
+#endif
+
 #ifdef ERROR_KIT_STORE_KIT
 #import <StoreKit/StoreKit.h>
 #endif

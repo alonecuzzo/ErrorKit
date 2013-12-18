@@ -66,6 +66,10 @@
 
 #define ERROR_KIT_PARSE 1
 
+#ifdef _RESTKIT_
+#define ERROR_KIT_RESTKIT 1
+#endif
+
 #ifdef _SECURITY_SECITEM_H_
 #define ERROR_KIT_SECURITY 1
 #endif

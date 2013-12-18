@@ -10,4 +10,10 @@
 
 @interface MRErrorBuilder (RestKit)
 
+// Error for RKErrorNotificationErrorKey
+@property (nonatomic, readonly) NSError *errorForErrorNotificationKey;
+
+// Dictionary for RKObjectMapperErrorObjectsKey
+@property (nonatomic, strong, readonly) NSDictionary *objectMapperForErrorObjectsKey;
+
 @end
