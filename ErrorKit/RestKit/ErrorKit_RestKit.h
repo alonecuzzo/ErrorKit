@@ -9,6 +9,8 @@
 #ifndef _ERRORKIT_RESTKIT_H
 #define _ERRORKIT_RESTKIT_H 
 
+#import "NSError+RestKit.h"
 
+#import "MRErrorBuilter+RestKit.h"
 
 #endif

@@ -98,6 +98,10 @@
 #import "ErrorKit_Parse.h"
 #endif
 
+#ifdef ERROR_KIT_RESTKIT
+#import "ErrorKit_RestKit.h"
+#endif
+
 #ifdef ERROR_KIT_SECURITY
 #import "ErrorKit_Security.h"
 #endif
