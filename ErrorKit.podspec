@@ -122,6 +122,13 @@ Pod::Spec.new do |s|
     ps.prefix_header_contents = '#define ERROR_KIT_PARSE 1'
   end
 
+  s.subspec 'RestKit' do |rk|
+	rk.source_files = 'ErrorKit/RestKit'
+	rk.dependency 'RestKit', '~> 0.22.0'
+	rk.dependency 'ErrorKit/Core'
+	rk.prefix_header_contents = '#define ERROR_KIT_RESTKIT 1'
+  end 
+
   s.subspec 'Security' do |se|
     se.source_files = 'ErrorKit/Security'
     se.dependency 'ErrorKit/Core'
